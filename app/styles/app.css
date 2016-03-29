@@ -1,3 +1,86 @@
 * {
     color: #666;
 }
+.welcomeText{
+	color:red;
+	font-size:40px;
+}
+.uname , .pword , .penName{
+	width:300px;
+	margin:0 auto !important;
+	padding-top:30px !important;
+	border-bottom:1px solid #666;
+}
+.littleTaleImgDiv{
+	width:150px;
+	margin:0 auto !important;
+	margin-top:35px !important;
+}
+.forgotPword{
+	width:115px;
+	margin:0 auto !important;
+	padding: 15px 0px;
+}
+.registerDiv{
+	width:55px;
+	margin:0 auto !important;
+	padding: 15px 0px;
+}
+.registerDiv label{
+	color:red !important;
+}
+.letmeExploreDiv{
+	width:95px;
+	margin:0 auto !important;
+	padding:10px 0px 20px 0px;
+}
+.loginDiv , .registerDiv{
+	width:75px;
+	margin:0 auto !important;
+}
+.facebookBtnDiv{
+	width:207px;
+	margin:0 auto !important;
+}
+.loginFormDiv{
+	width:500px;
+	margin:auto !important;
+	border:1px solid rgba(93, 78, 78, 0.22);
+	border-radius: 10px;
+}
+.horizontalDevider{
+	width:250px;
+	margin-left:auto !important;
+	margin-right:auto !important;
+}
+.loginBtn{
+	background-color:black !important;
+}
+.termsOfService{
+	width:305px;
+	margin:0 auto !important;
+	padding: 15px 0px;
+}
+.termsOfService label{
+	font-size:11px;
+}
+.registerDiv{
+	margin-bottom:20px !important;	
+}
+.resetLblDiv{
+	width:180px;
+	margin:0 auto !important;
+	font-size:11px;
+	text-align: center;
+}
+.bottomDivImg{
+	width:100% !important;
+	background-image:url('./themes/images/Loop_Bottom-Design.png');
+	height:89px;
+}
+.littleTaleImg{
+	width:100%;
+}
+.loginContainerDiv{
+	margin-top:30px;
+}
