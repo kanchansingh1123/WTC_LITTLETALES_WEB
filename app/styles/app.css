@@ -2,11 +2,11 @@
     color: #666;
 }
 .welcomeText{
-	color:red;
-	font-size:40px;
+	color:#45C0AD;
+	font-size:50px;
 }
 .uname , .pword , .penName{
-	width:300px;
+	width:50%;
 	margin:0 auto !important;
 	padding-top:30px !important;
 	border-bottom:1px solid #666;
@@ -21,6 +21,9 @@
 	margin:0 auto !important;
 	padding: 15px 0px;
 }
+.forgotPword label{
+	cursor: pointer;
+}
 .registerDiv{
 	width:55px;
 	margin:0 auto !important;
@@ -28,6 +31,7 @@
 }
 .registerDiv label{
 	color:red !important;
+        cursor: pointer;
 }
 .letmeExploreDiv{
 	width:95px;
@@ -67,11 +71,12 @@
 .registerDiv{
 	margin-bottom:20px !important;	
 }
-.resetLblDiv{
-	width:180px;
-	margin:0 auto !important;
-	font-size:11px;
-	text-align: center;
+.resetLblDiv {
+    width: 180px;
+    margin: 0 auto !important;
+    font-size: 11px;
+    text-align: center;
+    padding-bottom: 100px !important;
 }
 .bottomDivImg{
 	width:100% !important;
@@ -79,8 +84,51 @@
 	height:89px;
 }
 .littleTaleImg{
-	width:100%;
+    width:85%;
 }
-.loginContainerDiv{
-	margin-top:30px;
+.loginContainerDiv {
+    top:15px;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.ragistrationContainerDiv {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.welcomeRegistration {
+    color:#45C0AD;
+    font-size:50px;
+    top: 20px !important;
+}
+
+.welcomeRegistrationUser {
+    color:red;
+    top: 20px !important;
+}
+
+.forgotContainerDiv {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.descText {
+    font-size:18px;
+}
+
+.leftTextAlign {
+    margin-left: 30% !important;
+}
+
+.textThemeColoRed {
+    color: #D61535;
+    font-size:53px;
+}
+
+.textDevHeight {
+    margin-bottom: 50px;
 }

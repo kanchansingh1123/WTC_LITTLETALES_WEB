@@ -25,4 +25,12 @@ export class Login {
     loggedIn(test) {
         this._router.navigate('/home');
     }
+    
+    register() {
+        this._router.navigate('/registration');
+    }
+    
+    forgotPasswrd() {
+        this._router.navigate('/forgotpassword');
+    }
 }

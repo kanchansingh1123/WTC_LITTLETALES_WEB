@@ -1,13 +1,19 @@
 <div class="loginContainerDiv">
     <div class="ui two column middle aligned very relaxed stackable grid">
-        <div class="center aligned column welcomeText">
-            WELCOME BACK <p style="color:green">WTC</p>
-
+       
+        <div class="left aligned column">
+            <div class="leftTextAlign">
+                <div>
+                    <div class="textDevHeight welcomeText">WELCOME</div>
+                    <div class="textThemeColoRed textDevHeight">WORDSMITH</div>
+                </div>
+            </div>
         </div>  
+        
         <div class="column">
             <div class="ui form loginFormDiv">
                 <div class="littleTaleImgDiv"> 
-                    <img class="littleTaleImg" src="./styles/themes/images/login-Screen.png" width:="100" height="70">
+                    <img class="littleTaleImg" src="./styles/themes/images/login-Screen.png">
                 </div>
                 <div class="field uname">
                     <div class="ui transparent input">
@@ -20,10 +26,10 @@
                     </div>
                 </div>
                 <div class="forgotPword">
-                    <label>Forgor password ?</label>
+                    <label (click)="forgotPasswrd()">Forgor password ?</label>
                 </div>
                 <div class="loginDiv">
-                    <div (click)="login()" class="ui blue submit button" class="ui blue submit button loginBtn">Login</div>
+                    <div class="ui blue submit button loginBtn">Login</div>
                 </div>
                 <div class="ui horizontal divider horizontalDevider">
                     Or
@@ -32,7 +38,7 @@
                     <div class="ui blue submit button">Continue Using Facebook</div>
                 </div>
                 <div class="registerDiv">
-                    <label>Register</label>
+                    <label (click)="register()">Register</label>
                 </div>
                 <hr>
                 <div class="letmeExploreDiv">
